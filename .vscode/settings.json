@@ -4,8 +4,9 @@
     "cmake.configureArgs":
     [
         "-DREPOSITORY_PATH=${workspaceFolder}/../solutions",
-        "-DTASK=slice",
-        "-DNOCOMPILE=OFF"
+        "-DTASK=span",
+        "-DNOCOMPILE=OFF",
+        "fsanitize=address"
     ],
     "C_Cpp.default.cppStandard": "c++20"
 }
